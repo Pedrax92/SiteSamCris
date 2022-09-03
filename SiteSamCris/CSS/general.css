@@ -16,7 +16,7 @@
     color: black;
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
+    text-align: center; 
     
 }
 #ftDiv2 {
@@ -31,4 +31,18 @@
     bottom:0px; 
 }
 
+#bdContainer {
+    position: relative;   
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px solid black;
+    text-align: center;
+}
 
+#mnBdContainer {
+    position: absolute;
+    bottom: 125px;
+    right: 0px;
+    left: 0px;
+    border: 3px solid blue;
+}
